@@ -1,0 +1,1 @@
+For each sample definition in `data/sample/`, save here the desired statistics in `.dta` format. For example, running the estimator on `data/sample/3495.dta` yields `result/sample/3495.dta`.

@@ -1,0 +1,1 @@
+Do not edit this folder manually. `code/util/create_sample.do` will create boostrap samples to save here. Each file correspons to a different boostrap sample.

@@ -1,0 +1,1 @@
+The script `code/aggregate.do` will save aggregate results here.
