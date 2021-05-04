@@ -10,5 +10,10 @@ confirm existence `output_file'
 use "`input_file'", clear
 
 /* estimation code comes here */
+summarize x
+scalar theta = r(mean)
+clear
+set obs 1
+generate theta = theta
 
 save "`output_file'", replace
