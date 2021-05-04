@@ -1,3 +1,4 @@
+set processors 1
 args seed
 set seed `seed'
 

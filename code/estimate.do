@@ -4,6 +4,8 @@ This code reads the data, runs the estimation and saves the statistics. You can 
 The command-line parameter `1' is the input file name, the parameters `2' is the output file name.
 Use fully qualified names, including the .dta extension.
 */
+set processors 1
+
 args input_file output_file
 confirm existence `input_file'
 confirm existence `output_file'
